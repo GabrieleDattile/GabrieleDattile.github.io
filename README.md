@@ -1,4 +1,4 @@
-# Gabriele Dattile // Cybersecurity & Autonomous AI Hub
+# Gabriele D'Attile // Cybersecurity & Autonomous AI Hub
 
 > Personal portfolio and repository directory hosted on GitHub Pages: [gabrieledattile.github.io](https://gabrieledattile.github.io)
 
