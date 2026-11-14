@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Superpowers: Deterministic Autonomous AI Framework | Gabriele D'Attile</title>
+  <meta name="description" content="Official architectural overview of Agent Superpowers by Gabriele D'Attile: 36 production-grade agent skills, 7-stage deterministic TDD & sandbox workflow, Red-Team fuzzing, and MCP JSON-RPC 2.0 server.">
+  <meta name="author" content="Gabriele D'Attile">
+  <meta name="keywords" content="Gabriele D'Attile, Agent Superpowers, Autonomous AI Agents, MCP, Model Context Protocol, Claude Code, Cursor, Gemini CLI, Red-Team Fuzzing, TDD">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Agent Superpowers | Gabriele D'Attile">
+  <meta property="og:description" content="A 7-stage deterministic autonomous engineering framework and 36-skill suite built by Gabriele D'Attile for Claude Code, Cursor, Gemini CLI, Windsurf, Codex, and MCP.">
+  <meta property="og:url" content="https://gabrieledattile.github.io/agent-superpowers.html">
+  <meta property="og:type" content="article">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Agent Superpowers: Deterministic Engineering Framework for Autonomous AI Coding Agents",
+    "description": "Technical overview of the Agent Superpowers framework created by Gabriele D'Attile, featuring 36 production-grade skills, RED-to-GREEN TDD enforcement, ephemeral worktree isolation, Red-Team fuzzing, and MCP JSON-RPC 2.0 integration.",
+    "author": {
+      "@type": "Person",
+      "name": "Gabriele D'Attile",
+      "url": "https://gabrieledattile.github.io/",
+      "sameAs": [
+        "https://github.com/GabrieleDattile"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Gabriele D'Attile"
+    },
+    "mainEntity": {
+      "@type": "SoftwareSourceCode",
+      "name": "agent-superpowers",
+      "codeRepository": "https://github.com/GabrieleDattile/agent-superpowers",
+      "programmingLanguage": ["TypeScript", "Python"],
+      "license": "https://opensource.org/licenses/MIT",
+      "author": {
+        "@type": "Person",
+        "name": "Gabriele D'Attile"
+      }
+    },
+    "datePublished": "2026-11-14",
+    "inLanguage": "en"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dossier.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-bar">
+      <a href="/">&lt; HUB // GABRIELE D'ATTILE</a>
+      <div class="nav-links">
+        <a href="/security-projects.html">SECURITY &amp; CVE</a>
+        <a href="/systems-and-hardware.html">HARDWARE &amp; SYSTEMS</a>
+        <a href="/cve-2025-41450.html">CVE-2025-41450</a>
+      </div>
+    </nav>
+
+    <header class="article-header">
+      <span class="tag-badge green">AUTONOMOUS AI ENGINEERING &bull; TYPESCRIPT / PYTHON</span>
+      <h1>Agent Superpowers: Deterministic Framework for Autonomous AI Software Engineers</h1>
+      <div class="meta">
+        <span>Author: <strong>Gabriele D'Attile</strong></span>
+        <span>Language: <strong>TypeScript &amp; Python</strong></span>
+        <span>Repository: <a href="https://github.com/GabrieleDattile/agent-superpowers" target="_blank" rel="noopener" style="color: var(--neon-cyan);">GabrieleDattile/agent-superpowers</a></span>
+      </div>
+    </header>
+
+    <article class="article-body">
+      <p>
+        <strong>Agent Superpowers</strong> is an open-source, deterministic 7-stage autonomous engineering framework developed by <strong>Gabriele D'Attile</strong>. It is built to prevent AI coding hallucinations, broken production commits, and excessive token context bloat across major agent ecosystems including <strong>Claude Code, Cursor, Google Antigravity, Windsurf, Codex, and Model Context Protocol (MCP)</strong>.
+      </p>
+
+      <div class="callout">
+        <strong>Core Design Principle:</strong> Rather than letting an LLM edit production code immediately on assumptions, Agent Superpowers enforces deterministic gates: bug reproduction first, isolated sandbox execution, minimal surgical patching, adversarial fuzzing, and full regression verification.
+      </div>
+
+      <h2>1. The Deterministic Execution Pipeline</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Stage</th>
+            <th>Gate</th>
+            <th>Engineering Guarantee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1. Deterministic Repro</strong></td>
+            <td>RED Test Required</td>
+            <td>Zero production code edits are allowed until an isolated test replicates the reported defect.</td>
+          </tr>
+          <tr>
+            <td><strong>2. Ephemeral Sandbox</strong></td>
+            <td>Worktree Isolation</td>
+            <td>Protects the primary working branch from corrupting edits during autonomous iterations.</td>
+          </tr>
+          <tr>
+            <td><strong>3. Minimal Surgical Patch</strong></td>
+            <td>GREEN Verification</td>
+            <td>Applies minimal targeted changes until the failing reproduction test passes reliably.</td>
+          </tr>
+          <tr>
+            <td><strong>4. Red-Team Fuzzing</strong></td>
+            <td>Security Payloads</td>
+            <td>Audits proposed patches against boundary overflows, null-bytes, and injection edge cases before merge.</td>
+          </tr>
+          <tr>
+            <td><strong>5. Production Gate</strong></td>
+            <td>Verified Merge</td>
+            <td>Full regression suite execution and verification prior to completion.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>2. Modular Skill Architecture (36 Production-Grade Skills)</h2>
+      <p>
+        The repository organizes 36 modular skills inside <code>skills/</code> across 12 specialized engineering domains:
+      </p>
+      <ul>
+        <li><strong>Architecture &amp; Reverse Engineering:</strong> <code>architecture</code>, <code>reverse-engineering</code>, and codebase cartography workflows.</li>
+        <li><strong>Security &amp; Testing:</strong> <code>security</code> and <code>testing</code> pipelines including adversarial pre-commit auditing and zero-assumption replication.</li>
+        <li><strong>Debugging &amp; Optimization:</strong> <code>debugging</code> and <code>optimization</code> modules for AST-level context compression and token efficiency.</li>
+        <li><strong>Orchestration &amp; Workflow:</strong> <code>orchestration</code>, <code>workflow</code>, <code>memory</code>, <code>frontend</code>, <code>multimedia</code>, and <code>scraping</code>.</li>
+      </ul>
+
+      <h2>3. Native Cross-Platform &amp; MCP Integration</h2>
+      <p>
+        Agent Superpowers ships with installers for Windows (<code>install.ps1</code>), Linux/macOS (<code>install.sh</code>), and Python (<code>install.py</code>), alongside native configuration hooks for <code>.claude-plugin</code>, <code>.cursor</code>, <code>.codex</code>, <code>.windsurfrules</code>, a <code>dashboard</code>, a CLI, and a Model Context Protocol server (<code>mcp/server.py</code>) implementing JSON-RPC 2.0.
+      </p>
+
+      <div class="author-card">
+        <h3>AUTHOR: GABRIELE D'ATTILE</h3>
+        <p>
+          Security researcher and autonomous AI systems architect. Explore more security tools, CVE post-mortems, and embedded systems on the main hub.
+        </p>
+        <p style="margin-top: 0.8rem;">
+          &bull; <strong>Source Code:</strong> <a href="https://github.com/GabrieleDattile/agent-superpowers" target="_blank" rel="noopener">github.com/GabrieleDattile/agent-superpowers</a><br>
+          &bull; <strong>Portfolio Hub:</strong> <a href="https://gabrieledattile.github.io/">gabrieledattile.github.io</a><br>
+          &bull; <strong>Related Dossiers:</strong> <a href="/security-projects.html">Security &amp; CVE Projects</a> &bull; <a href="/systems-and-hardware.html">Hardware &amp; Systems</a>
+        </p>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

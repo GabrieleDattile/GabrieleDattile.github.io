@@ -1,0 +1,45 @@
+# Gabriele D'Attile — Security Researcher & Autonomous AI Architect
+
+> Official technical hub, open-source software portfolio, and research index of Gabriele D'Attile (GabrieleDattile). Focused on offensive cybersecurity, Operational Technology (OT) vulnerability research, deterministic autonomous AI engineering, Linux OPSEC/defense tooling, and embedded hardware systems.
+
+- Official Website: https://gabrieledattile.github.io/
+- GitHub Profile: https://github.com/GabrieleDattile
+- Sitemap: https://gabrieledattile.github.io/sitemap.xml
+
+## Deep Technical Dossiers & Articles
+- [Agent Superpowers Architecture](https://gabrieledattile.github.io/agent-superpowers.html): 7-stage deterministic autonomous engineering framework (36 production-grade skills, RED-to-GREEN TDD, ephemeral worktree isolation, Red-Team fuzzing, and MCP JSON-RPC 2.0 server) in TypeScript and Python.
+- [CVE-2025-41450 & Fromagegate OT Analysis](https://gabrieledattile.github.io/cve-2025-41450.html): Technical post-mortem, "Code-of-the-Day" authentication bypass analysis on Danfoss AK-SM 8xxA cooling controllers, cyber-physical blast radius, and Purdue Model defense blueprint.
+- [Offensive Security, CVE & Privacy Dossier](https://gabrieledattile.github.io/security-projects.html): Complete technical overview of Gabriele D'Attile's CVE PoCs, mobile threat research, Bash/Python OPSEC tools, Linux defensive installers, and penetration testing guides.
+- [Embedded Hardware & Systems Automation Dossier](https://gabrieledattile.github.io/systems-and-hardware.html): Technical overview of ESP32 C++ microcontroller firmware, WSL2 + Kali Linux + Win-KeX Windows automation, Python scraping pipelines, and C/C++ systems tooling.
+
+## Autonomous AI Engineering
+- [agent-superpowers](https://github.com/GabrieleDattile/agent-superpowers): Production-grade 7-stage deterministic engineering framework and 36 agent skills in TypeScript and Python, compatible with Claude Code, Cursor, Google Antigravity, Windsurf, Codex, and MCP (`mcp/server.py`). Includes skills across architecture, debugging, reverse-engineering, security, testing, optimization, scraping, and orchestration.
+
+## Vulnerability Research & Offensive Security
+- [CVE-2025-41450-Fromagegate](https://github.com/GabrieleDattile/CVE-2025-41450-Fromagegate): Python OT cyber-physical defense blueprint, safe local controller mock simulator, Suricata IDS rules, Sigma SIEM rules, and vulnerability analysis for CVE-2025-41450 / CVE-2025-41451 / CVE-2025-41452.
+- [CVE-2025-23040](https://github.com/GabrieleDattile/CVE-2025-23040): Technical documentation and analysis of CVE-2025-23040 (credential leak via manipulated remote URLs in GitHub Desktop < 3.4.12 allowing OAuth token and username exfiltration).
+- [cve-pocs](https://github.com/GabrieleDattile/cve-pocs): Python Proof-of-Concept archive and technical documentation examining CVE-2022-20494, CVE-2023-20963, CVE-2023-29017, CVE-2024-0044, and iOS CVEs.
+- [Percorso-da-Zero-a-Pentester](https://github.com/GabrieleDattile/Percorso-da-Zero-a-Pentester): Structured Italian learning roadmap and technical resource collection for penetration testing and Capture The Flag (CTF) competitions.
+- [Android-Keylogger-with-Automatic-Reconnection-and-Encryption](https://github.com/GabrieleDattile/Android-Keylogger-with-Automatic-Reconnection-and-Encryption): Python Android monitoring and security research tool implementing automatic reconnection, encrypted data transport (`cryptography`), `adbutils` screen capture, and `Socket.IO` communication.
+- [Android-Rat-Collection](https://github.com/GabrieleDattile/Android-Rat-Collection): Threat research archive documenting open-source Android remote administration tools (such as AhMyth) for security evaluation.
+- [ImageHideaway](https://github.com/GabrieleDattile/ImageHideaway): Python security research script (`apk-image.py`) exploring payload and APK embedding techniques inside image files.
+- [BruteForceCracker-](https://github.com/GabrieleDattile/BruteForceCracker-): Multithreaded Python 3 HTTP credential stress-testing utility built with `requests` and `threading`.
+- [stealermachineITA](https://github.com/GabrieleDattile/stealermachineITA): Python system telemetry collector (`machineinfo.py`) built with `psutil` and `requests` for webhook-based host monitoring.
+
+## OPSEC, Privacy & Linux Defense Tooling
+- [StealthShell](https://github.com/GabrieleDattile/StealthShell): Bash utility (`StealthShell.sh`) for managing and suppressing command history logging and operational footprint inside Linux Bash sessions.
+- [ShieldedProxy](https://github.com/GabrieleDattile/ShieldedProxy): Bash automation (`SSHProxyGuard`) for establishing and managing SSH tunnels to route public proxy connections securely.
+- [PrivacyToolkit](https://github.com/GabrieleDattile/PrivacyToolkit): Linux privacy and operational security script suite combining `AnonSurf.bash`, `GNUPrivacyAssistant.bash`, metadata cleaning, secure file deletion, and `zulucrypt.sh` disk encryption helpers.
+- [SecurityTools](https://github.com/GabrieleDattile/SecurityTools): Automated Bash defensive deployment suite including `firewall_installer.sh`, `monitoring_install.sh`, `password_manager_installer.sh`, `secure-crypto-installer.sh`, and `threat_protection_installer.sh`.
+- [Chatgpg-pythonITA](https://github.com/GabrieleDattile/Chatgpg-pythonITA): End-to-end encrypted Python socket chat using GnuPG (`gnupg`) public-key cryptography for key generation, export, encryption, and decryption.
+- [SimplenetcatITA](https://github.com/GabrieleDattile/SimplenetcatITA): Bash wrapper around `nc` (netcat) for opening listening ports and establishing client TCP connections on Linux.
+- [macchangerITA](https://github.com/GabrieleDattile/macchangerITA): Bash network interface utility (`MacchangerITA.sh`) using `ip` and `openssl` to assign random or custom MAC addresses.
+- [grub-reset-password](https://github.com/GabrieleDattile/grub-reset-password) & [Reset-Password-BIOS](https://github.com/GabrieleDattile/Reset-Password-BIOS): Technical recovery guides and procedures for Linux GRUB root password resets and hardware BIOS password recovery.
+
+## Embedded Hardware, Systems & Automation
+- [ESP32-LOVE-PROJECT](https://github.com/GabrieleDattile/ESP32-LOVE-PROJECT): C++ firmware for ESP32 microcontrollers and TFT displays rendering interactive parametric graphics, smooth animations, and physical button input handling.
+- [WSL-Kali-Linux](https://github.com/GabrieleDattile/WSL-Kali-Linux): PowerShell automation script to provision WSL, Kali Linux, and the Win-KeX desktop environment on Windows 10/11.
+- [datascraperbot](https://github.com/GabrieleDattile/datascraperbot): Modular Python web scraping pipeline (`main.py`, `scraper.py`, `config.py`) backed by automated unit tests (`test_api.py`, `test_clean_text.py`, `test_scraper.py`).
+- [fondamenti-di-cpp](https://github.com/GabrieleDattile/fondamenti-di-cpp): Educational C++ systems programming guide covering language fundamentals, memory concepts, and object-oriented programming.
+- [Irc-Server](https://github.com/GabrieleDattile/Irc-Server): Multi-distribution Bash setup script (`irssi_install`) configuring the `irssi` IRC client across Ubuntu, Debian, Fedora, and Arch Linux.
+- [dotfiles](https://github.com/GabrieleDattile/dotfiles) & [calcolatore-moli](https://github.com/GabrieleDattile/calcolatore-moli): Vim Script environment dotfiles and C command-line stoichiometry calculator.
